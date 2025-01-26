@@ -1,27 +1,47 @@
-# MovieWebApp
+Overview
+This is a feature-rich Angular application built to showcase my front-end development skills. The application demonstrates a variety of core Angular features, including routing, data binding, and a well-structured, scalable codebase. It has been designed with best practices in mind to ensure maintainability and performance.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+Features:
+    🔹 Routing -
+              Implemented Angular routing for seamless navigation between different views.
+              Used route guards to secure specific sections of the application.
+              Lazy loading implemented for optimized performance and reduced initial load time.
+    🔹 Data Binding -
+              Utilized two-way data binding for dynamic updates between the UI and the component.
+              Applied property binding and event binding for efficient communication between the template and logic.
+    🔹 Well-Structured Code
+              Modular architecture for better scalability and maintainability.
+              Followed Angular best practices, such as separating components, services, and modules logically.
+              Reusable and dynamic components for a DRY (Don't Repeat Yourself) codebase.
 
-## Development server
+Tech Stack:
+        🔹Framework: Angular (17.3.0)
+        🔹Language: TypeScript
+        🔹CSS Framework: Bootstrap
+        🔹Build Tool: Angular CLI
+        🔹Hosting: Firebase Hosting
+        
+Future Improvements:
+        🔹Adding unit tests using Jasmine and Karma.
+        🔹Integrating state management with NgRx.
+        🔹Expanding the app with more features like authentication and API integrations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Project Structure :
 
-## Code scaffolding
+          src/
+          ├── app/
+          │   ├── components/        # Reusable components
+          │   ├── endpoints/         # API endpoint services
+          │   ├── interfaces/        # TypeScript interfaces
+          │   ├── pages/             # Application pages
+          │   ├── modules/           # Feature modules
+          │   ├── services/          # Shared services
+          │   ├── app-routing.module.ts  # App-level routing
+          │   ├── app.module.ts      # Root module
+          │   └── app.component.ts   # Root component
+          ├── assets/                # Static assets (images, styles, etc.)
+          ├── environments/          # Environment configurations
+          └── index.html             # Main HTML file
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Deployment:
+          The application is hosted on Firebase Hosting. You can access the live version at: https://moviewebapp-e287c.web.app/
