@@ -1,0 +1,21 @@
+@import "../../../theam/theam.scss";
+.segmented-control-componet {
+  display: flex;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 8px;
+  background: $black-20;
+  .segment {
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $grey-400;
+    cursor: pointer;
+  }
+
+  .active-item {
+    color: $primary-50;
+    background: $primary-400;
+    border-radius: 8px;
+  }
+}

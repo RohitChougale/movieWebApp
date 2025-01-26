@@ -1,0 +1,18 @@
+.rate-chip-component {
+  display: flex;
+  column-gap: 5px;
+  color: #eea245;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 8px;
+  border-radius: 7px;
+  width: fit-content;
+  i {
+    color: #eea245;
+    font-weight: bold;
+  }
+  span {
+    font-size: 17.35;
+    font-weight: bold;
+    color: #eea245;
+  }
+}
